@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+.course-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-price{
+    font-style: italic;
+    color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.card-title{
+    color: cornflowerblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-delete-btn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.refresh-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
